@@ -3,7 +3,7 @@
 
 ## install
 ```
-npm install -g https-proxy --registry http://npm.pdtv.io
+npm install -g https-proxy
 ```
 
 ## use
