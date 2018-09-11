@@ -12,8 +12,8 @@ var proxy = httpProxy.createServer({
     port: listenPort,
   },
   ssl: {
-    cert: fs.readFileSync(path.resolve(__dirname, './xingyan.panda.tv.crt'), 'utf8'),
-    key: fs.readFileSync(path.resolve(__dirname, './xingyan.panda.tv.key'), 'utf8')
+    cert: fs.readFileSync(path.resolve(__dirname, './test.crt'), 'utf8'),
+    key: fs.readFileSync(path.resolve(__dirname, './test.key'), 'utf8')
   },
   ws: true,
   secure: true
