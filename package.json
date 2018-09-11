@@ -1,0 +1,18 @@
+{
+  "name": "https-proxy",
+  "version": "1.0.3",
+  "description": "",
+  "main": "./index.js",
+  "bin": {
+    "https-proxy":"./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "daijinma <daijinma@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.17.0",
+    "yargs": "^12.0.1"
+  }
+}
